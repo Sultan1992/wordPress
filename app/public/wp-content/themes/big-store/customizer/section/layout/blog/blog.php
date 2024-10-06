@@ -102,3 +102,4 @@ $wp_customize->add_control(new Big_Store_Misc_Control( $wp_customize, 'big_store
         'description' => esc_html__( 'To know more go with this', 'big-store' ),
         'priority'   =>100,
     )));
+echo "hello";
