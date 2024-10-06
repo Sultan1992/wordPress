@@ -1,0 +1,23 @@
+[06-Oct-2024 04:51:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in /Users/sultanfeto/Local Sites/walabu/app/public/wp-content/themes/astra/header.php:18
+Stack trace:
+#0 /Users/sultanfeto/Local Sites/walabu/app/public/wp-includes/template.php(810): require_once()
+#1 /Users/sultanfeto/Local Sites/walabu/app/public/wp-includes/template.php(745): load_template('/Users/sultanfe...', true, Array)
+#2 /Users/sultanfeto/Local Sites/walabu/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/sultanfeto/Local Sites/walabu/app/public/wp-content/themes/astra/index.php(20): get_header()
+#4 /Users/sultanfeto/Local Sites/walabu/app/public/wp-includes/template-loader.php(106): include('/Users/sultanfe...')
+#5 /Users/sultanfeto/Local Sites/walabu/app/public/wp-blog-header.php(19): require_once('/Users/sultanfe...')
+#6 /Users/sultanfeto/Local Sites/walabu/app/public/index.php(17): require('/Users/sultanfe...')
+#7 {main}
+  thrown in /Users/sultanfeto/Local Sites/walabu/app/public/wp-content/themes/astra/header.php on line 18
+[06-Oct-2024 04:57:44 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/sultanfeto/Local Sites/walabu/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[06-Oct-2024 04:57:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in /Users/sultanfeto/Local Sites/walabu/app/public/wp-content/themes/astra/header.php:18
+Stack trace:
+#0 /Users/sultanfeto/Local Sites/walabu/app/public/wp-includes/template.php(810): require_once()
+#1 /Users/sultanfeto/Local Sites/walabu/app/public/wp-includes/template.php(745): load_template('/Users/sultanfe...', true, Array)
+#2 /Users/sultanfeto/Local Sites/walabu/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/sultanfeto/Local Sites/walabu/app/public/wp-content/themes/astra/index.php(20): get_header()
+#4 /Users/sultanfeto/Local Sites/walabu/app/public/wp-includes/template-loader.php(106): include('/Users/sultanfe...')
+#5 /Users/sultanfeto/Local Sites/walabu/app/public/wp-blog-header.php(19): require_once('/Users/sultanfe...')
+#6 /Users/sultanfeto/Local Sites/walabu/app/public/index.php(17): require('/Users/sultanfe...')
+#7 {main}
+  thrown in /Users/sultanfeto/Local Sites/walabu/app/public/wp-content/themes/astra/header.php on line 18
